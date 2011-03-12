@@ -1,0 +1,3 @@
+usage:
+
+sh 1-pre.sh; php 1.php | grep -E "2011.03.1[01]" | grep -i cnn| grep -v ProductGroupID  | sort -t: -k2n  | cat -n -
